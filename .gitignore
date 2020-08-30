@@ -96,7 +96,8 @@ celerybeat-schedule
 
 # config
 
-/configs
+configs/*
+!configs/tweet_strings.py
 
 .idea
 
